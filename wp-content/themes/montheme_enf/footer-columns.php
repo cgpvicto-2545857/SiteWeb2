@@ -83,9 +83,7 @@
 <div class="wp-block-group rights-box-upper has-primary-background-color has-background" style="padding-top:var(--wp--preset--spacing--30);padding-right:0;padding-bottom:var(--wp--preset--spacing--30);padding-left:0"><!-- wp:paragraph {"className":"rights-text has-white-color has-text-color has-link-color has-inter-font-family","style":{"typography":{"fontSize":"16px","fontWeight":"600","textAlign":"center","fontStyle":"normal"},"elements":{"link":{"color":{"text":"var:preset|color|secondary"}}}},"textColor":"secondary","fontFamily":"epilogue"} -->
 <p class="has-text-align-center rights-text has-white-color has-text-color has-link-color has-inter-font-family has-secondary-color has-epilogue-font-family" style="font-size:16px;font-style:normal;font-weight:600"><a href="<?php echo esc_url(GYM_ENTHUSIAST_FREE_BUY_NOW); ?>" target="_blank"><?php esc_html_e('GYM Enthusiast. ','gym-enthusiast'); ?></a> <?php esc_html_e('All Rights Reserved.','gym-enthusiast'); ?></p>
 <!-- /wp:paragraph -->
-<div class="date-aujourdhui">
-<?php echo date('d/m/Y'); ?>
-</div>
+
 <!-- wp:buttons -->
 <div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"primary","textColor":"white","className":"back-to-top","style":{"border":{"radius":"50%"},"elements":{"link":{"color":{"text":"var:preset|color|white"}}}}} -->
 <div class="wp-block-button back-to-top"><a class="wp-block-button__link has-white-color has-primary-background-color has-text-color has-background has-link-color wp-element-button" style="border-radius:50%"><?php esc_html_e('back to top','gym-enthusiast'); ?></a></div>

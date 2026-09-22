@@ -1,0 +1,84 @@
+/*
+Theme Name: montheme_enf
+Template: gym-enthusiast
+Author: Roger Gladu
+Version: 1.0.0
+*/
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+/* modification de plusieurs page */
+
+h1.wp-block-heading {
+font-family: "Anton", sans-serif !important;
+font-size: 80px !important;
+font-weight: 400;
+line-height: 1;
+letter-spacing: 2px;
+text-transform: uppercase;
+}
+
+.service-sec {
+    background: linear-gradient(
+        135deg,
+        rgba(198, 234, 0, 0.85) 0%,
+        rgba(180, 220, 0, 0.85) 100%
+    ) !important;
+
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 30px;
+
+    box-shadow:
+        0 20px 50px rgba(0, 0, 0, 0.25),
+        0 8px 20px rgba(0, 0, 0, 0.15),
+        0 0 25px rgba(198, 234, 0, 0.5);
+
+    padding: 60px !important;
+}
+.project-title-grp {
+    background: rgba(255, 255, 255, 0.75) !important;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 12px;
+}
+
+.top-service-title {
+    display: inline-block;
+    padding: 12px 30px !important;
+
+    background: #81b22e;
+    border: 3px solid #1e2218;
+
+    border-radius: 50px;
+
+    box-shadow:
+        0 10px 25px rgba(0, 0, 0, 0.2),
+        0 0 20px rgba(0, 0, 0, 0.4);
+
+    color: #ffffff !important;
+    font-weight: 700 !important;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.service-paras {
+    display: table;
+
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-bottom: 3em !important;
+
+    padding: 15px 30px !important;
+
+    text-align: center !important;
+
+    background: rgba(255, 255, 255, 0.25);
+    border: 2px solid #7cb518;
+    border-radius: 20px;
+
+    box-shadow:
+        0 12px 30px rgba(0, 0, 0, 0.15),
+        0 0 15px rgba(124, 181, 24, 0.3);
+}
